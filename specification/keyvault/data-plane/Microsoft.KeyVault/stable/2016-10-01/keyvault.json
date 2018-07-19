@@ -3008,7 +3008,7 @@
         "crv": {
           "type": "string",
           "description": "Elliptic curve name. For valid values, see JsonWebKeyCurveName.",
-          "enum": [ "P-256", "P-384", "P-521", "SECP256K1" ],
+          "enum": [ "P-256", "P-384", "P-521", "P-256K" ],
           "x-ms-enum": {
             "name": "JsonWebKeyCurveName",
             "modelAsString": true
@@ -3905,7 +3905,7 @@
           "x-ms-client-name": "curve",
           "type": "string",
           "description": "Elliptic curve name. For valid values, see JsonWebKeyCurveName.",
-          "enum": [ "P-256", "P-384", "P-521", "SECP256K1" ],
+          "enum": [ "P-256", "P-384", "P-521", "P-256K" ],
           "x-ms-enum": {
             "name": "JsonWebKeyCurveName",
             "modelAsString": true
